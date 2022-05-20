@@ -44,108 +44,146 @@
     <main>
         <!-- start bootstrap -->
         <section class="back-acqua">
-            <div class="ms-container">
-                <div class="avatar ms-flex-container">  
+            <div class="container text-center">
+                <div class="avatar ms-flex-container">
+                    <img src="img/avatar.svg" alt="">  
                 </div>
+                <div class="ms-desc">
+                    <h1>START BOOTSTRAP</h1>
 
-                <h1>START BOOTSTRAP</h1>
+                    <div class="star"><i class="fa-solid fa-star"></i></div>
 
-                <p>stellina</p>
-
-                <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR </p>    
+                    <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR </p>  
+                </div>  
             </div>
         </section>
 
         <!-- portfolio -->
         <section class="portfolio">
-            <h2>PORTFOLIO</h2>
-            <p>stellina</p>
+            <div class="titol-section">
+                <h2>PORTFOLIO</h2>
+                <div class="star-black"><i class="fa-solid fa-star"></i></div>
+            </div>
             <div class="container">
                 <div class="row gy-3">
+                    <!-- start  -->
                     <div class="col-12 col-md-6 col-lg-4">
-                      <div class="ms-card"></div>
+                      <img class="ms-border-img" src="img/cabin.png" alt="cabin">
                     </div>
+                    <!-- end -->
+                     <!-- start  -->
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="ms-card"></div>
+                        <img class="ms-border-img" src="img/cake.png" alt="cabin">
                     </div>
+                    <!-- end -->
+                     <!-- start  -->
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="ms-card"></div>
+                        <img class="ms-border-img" src="img/circus.png" alt="cabin">
                     </div>
-
+                    <!-- end -->
+                     <!-- start  -->
                     <div class="col-12 col-md-6 col-lg-4">
-                        <div class="ms-card"></div>
+                        <img class="ms-border-img" src="img/game.png" alt="cabin">
                       </div>
-
+                      <!-- end -->
+                       <!-- start  -->
                       <div class="col-12 col-md-6 col-lg-4">
-                        <div class="ms-card"></div>
+                        <img class="ms-border-img" src="img/safe.png" alt="cabin">
                       </div>
-
+                      <!-- end -->
+                       <!-- start  -->
                       <div class="col-12 col-md-6 col-lg-4">
-                        <div class="ms-card"></div>
+                        <img class="ms-border-img" src="img/submarine.png" alt="cabin">
                       </div>
+                      <!-- end -->
                 </div>                
             </div>
         </section>
         <!-- about -->
         <section class="back-acqua" >
-            <div class="ms-container-about">
-                <h2>ABOUT</h2>
-                <p>stellina</p>
-                    <div class="row text-start gy-3">
+            <div class="ms-container">
+                <div class="titol-section">
+                    <h2>ABOUT</h2>
+                    <div class="star"><i class="fa-solid fa-star"></i></div>
+                </div>
+                <div class="container-fluid">
+                    <div class="row gy-3">
                         <div class="col-12 col-md-6">
-                          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laudantium illo maxime qui rerum voluptas excepturi commodi cum facilis voluptates totam beatae eius nobis in ex fugit, libero nemo tempora.
-                          
+                          Freelacer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files includig HTML, CSS, and JavaScript as well as otional LESS stylsheets for easy customization.
                         </div>
                         <div class="col-12 col-md-6">
-                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio, nam repellat qui velit fugit sequi, totam eligendi possimus quasi animi sunt consequuntur quia alias accusamus esse laudantium libero ipsa aliquam.
+                            Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to shere your project, this templete is the perfect starting point!
                         </div>
                     </div>
+                </div>
+              <div class="ms-download text-center ">
+                  <a class="btn btn-outline-light" href="#"> <i class="fa-solid fa-download"></i>Download</a>
+              </div>
             </div>
         </section>
-
+        <!-- contatti -->
         <section class="contact">
-            <div class="ms-container-contact">
-                <h2>CONTACT ME</h2>
-                <p>stellina</p>
+            <div class="ms-container">
+                <div class="titol-section">
+                    <h2>CONTACT ME</h2>
+                    <div class="star-black"><i class="fa-solid fa-star"></i></div>
+                </div>
                 <div class="message">
-                    <p>NOME</p>
-                    <hr>
+                    <form>
+                        <div class="mb-3">
+                          <label for="Name" class="form-label visually-hidden">Name</label>
+                          <input type="name" class="form-control" id="Name" placeholder="Nome" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                          <label for="Email" class="form-label visually-hidden">Email</label>
+                          <input type="email" class="form-control" id="Email" placeholder="Email">
+                        </div>
 
-                    <p>Email address</p>
-                    <hr>
+                        <div class="mb-3">
+                            <label for="Phone" class="form-label visually-hidden">Phone Number</label>
+                            <input type="tel" class="form-control" id="Phone" placeholder="Phone">
+                          </div>
 
-                    <p>Phone number</p>
-                    <hr>
-
-                    <p>Message</p>
-                    <hr id="hgt">
-
-                    <p>Send</p>    
+                          <div class="mb-3">
+                            <label for="message" class="form-label visually-hidden">Message</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Message"></textarea>
+                          </div>
+                        
+                        <a class="btn ms-btn-send" href="#">Send</a>
+                      </form>
                 </div>
             </div>
         </section>
     </main>
 
     <footer>
-        <section class="location">
+        <div class="location">
             <div class="container">
-                <div class="row gy-3">
+                <div class="row text-center gy-4">
                     <div class="col-12 col-md-4">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quis animi voluptates veniam in incidunt atque ab iure suscipit debitis asperiores at aut amet, officia quas qui? Quos, sed placeat.
+                      <h3>LOCATION</h3>
+                      <p>2215 Johan Drive Clark, Mo 54243</p>
                     </div>
                     <div class="col-12 col-md-4">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deleniti odit ad, voluptates ut nam, error nobis quas in tempora omnis? Esse ullam laboriosam labore nesciunt, a ad quas inventore?
+                       <h3>AROUND THE WEB</h3>
+                       <ul>
+                           <li><i class="fa-brands fa-facebook-f"></i></li>
+                           <li><i class="fa-brands fa-google-plus-g"></i></li>
+                           <li><i class="fa-brands fa-twitter"></i></li>
+                           <li><i class="fa-brands fa-linkedin-in"></i></li>
+                       </ul>
                     </div>
                     <div class="col-12 col-md-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ad ratione illum quo tempora pariatur aut, quisquam adipisci quis aperiam eveniet iste accusantium. Aliquid tempora vel odio beatae unde id.
+                        <h3>ABOUT FREELANCER</h3>
+                        <p>Freelance is a free use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a></p>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <section class="copyright">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-        </section>
+        <div class="copyright">
+            Copyright &copy; Your Website 2019
+        </div>
     </footer>
     
 </body>

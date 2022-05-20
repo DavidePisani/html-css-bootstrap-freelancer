@@ -18,9 +18,85 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    color: inherit;
+}
+
+
+/* attribbuti  section */
+.back-acqua{
+    background-color: #1abc9c;
+    color: var(--white);
+}
+
 section{
     padding: 20px 0;
 }
+/* titolo paragrafi e stellina */
+.titol-section{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.star{
+    font-size: 30px;
+}
+
+.star i{
+    padding: 10px 20px;
+}
+
+.star::before,.star::after{
+    content: "";
+    width: 25%;
+    max-width: 150px;
+    height: 5px;
+    border-radius: 5px;
+    vertical-align: middle;
+    background-color: white;
+    display: inline-block;
+}
+
+.star-black{
+    font-size: 30px;
+}
+
+.star-black i{
+    padding: 10px 20px;
+}
+
+.star-black::before,.star-black::after{
+    content: "";
+    width: 25%;
+    max-width: 150px;
+    height: 5px;
+    border-radius: 5px;
+    vertical-align: middle;
+    background-color: black;
+    display: inline-block;
+}
+
+img{
+    width: 100%;
+}
+
+/* stile form */
+input.form-control,
+textarea.form-control{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 22px;
+    padding: 10px;  
+}
+
+input.form-control:focus,
+textarea.form-control:focus{
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 1px solid grey;
+}
+
 
 /* HEADER */
 
@@ -32,7 +108,7 @@ header{
 }
 
 .logo{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bolder;
 }
 
@@ -53,80 +129,97 @@ header nav{
 }
 
 /* MAIN */
-
-.back-acqua{
-    background-color: #1abc9c;
-    width: 100%;    
-}
-
-.ms-container{
-    width: 80%;
-    margin: 0 auto;
-    color: var(--white);
-    text-align: center;
-}
-
 .avatar{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     margin: 0 auto;
-    background-color: bisque;
     margin-bottom: 20px;
 }
 
-/* portfolio */
-.portfolio{
-    text-align: center;
+h1{
+    font-size: 50px;
 }
 
-.ms-card{
-    height: 300px;
-    background-color: brown;
+.ms-desc p{
+    font-size: 25px;
+}
+
+/* portfolio */
+
+.ms-border-img{
     border-radius: 15px;
 }
+
 /* about */
-.ms-container-about{
+.ms-container{
+    padding: 30px 0;
+    max-width: 1170px;
     width: 60%;
-    margin: 0 auto;
-    color: var(--white);
-    text-align: center;
+    margin: 0 auto;  
 }
 
 .ms-container-about h2{
     padding-top: 15px;
     font-weight: bolder;
 }
+
+.ms-download{
+    margin-top: 20px;
+}
+.ms-download i{
+    padding-right: 5px;
+}
 /* contatti */
-.contact{
-    text-align: center;
-}
-.ms-container-contact{
-    width: 50%;
-    margin: 0 auto;
+
+.ms-btn-send{
+    color: #fff;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    margin-top: 10px;
 }
 
-.message{
-    text-align: start;
-}
-
-#hgt{
-    margin-top: 70px;   
-}
 /* FOOTER */
+
+footer{
+    color: var(--white);
+}
 
 .location{
     background-color: #3a546d;
-    color: var(--white);
+    padding: 40px 0;    
+}
+
+.location li{
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.location li i{
+    font-size: 20px;
+    line-height: 50px;   
+}
+
+.location a{
+    color:#1abc9c;
+}
+
+.location p{
+    font-size: 18px;
+    font-weight: bolder;
 }
 
 .copyright{
     background-color: #2c3e50;
-    color: white;
+    padding: 20px 0;
     width: 100%;
     margin: 0 auto;
     text-align: center;
     line-height: 50px;
     height: 100px;
+    font-size: 12px;
 }
 
 
